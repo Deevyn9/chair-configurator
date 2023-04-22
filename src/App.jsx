@@ -1,15 +1,16 @@
-import { Canvas } from '@react-three/fiber'
-import './App.css'
-import Experience from './components/Experience'
+import { Canvas } from "@react-three/fiber";
+import "./App.css";
+import Experience from "./components/Experience";
 
-function App() { 
+function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <Canvas>
+        <color attach="background" args={["#213547"]} />
         <Experience />
-        </Canvas>      
+      </Canvas>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
