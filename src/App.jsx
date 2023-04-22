@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Canvas>
-        <color attach="background" args={["#213547"]} />
+        <color attach="background" args={["#c213547"]} />
         <Experience />
       </Canvas>
     </div>
